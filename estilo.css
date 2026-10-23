@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10%;
+    border-bottom: 2px solid #5875ff;
+    background-color: #ffffff;
+}
+.logo {
+    font-size: 20px;
+    color: #172554;
+}
+.logo span {
+    color: #3159ef;
+}
+.menu {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    color: #172554;
+    font-weight: bold;
+    font-size: 14px;
+}
+.menu a:hover {
+    color: #3159ef;
+}
+.inicio {
+    margin: 0 auto;
+    padding: 75px 8% 80px;
+    border-bottom: 2px solid #5875ff;
+}
+.inicio h4 {
+    font-size: 25px;
+    color: #172554;
+    margin: 0;
+}
+.inicio h2 {
+    font-size: 35px;
+    color: #3159ef;
+    margin: 0;
+}
+
+.inicio h5 {
+    font-size: 15px;
+    color: #172554;
+    margin: 0;
+}
+.sobre-contato {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 40px 5%;
+    border-bottom: 2px solid #526cf5;
+}
+.sobre {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+}
+.sobre h2 {
+    font-size: 30px;
+    color: #3159ef;
+    margin: 0;
+}
+.titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulo img {
+    width: 50px;
+}
+.sobre p {
+    font-size: 15px;
+    color: #172554;
+}
+.contato {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #b2bdf5;
+    border-radius: 10px;
+    color: #172554;
+}
+.contato h2 {
+    font-size: 30px;
+    margin: 0;
+}
+.contato ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.contato li {
+    margin: 10px 0;
+}
+
+.aprender {
+    margin: 20px 5%;
+    padding: 30px;
+    color: #172554;
+}
+.aprender h2 {
+    font-size: 30px;
+    color: #3159ef;
+}
+.cards {
+    display: flex;
+    gap: 15px;
+}
+.card {
+    flex: 1;
+    min-height: 300px;
+    padding: 20px;
+    border: 3px solid #5875ff;
+    border-radius: 25px;
+    text-align: center;
+}
+.card h3 {
+    min-height: 50px;
+    font-size: 20px;
+    color: #3159ef;
+
+}
+.card p {
+    margin-top: 35px;
+    text-align: justify;
+    font-weight: bold;
+    color: #172554;
+}
