@@ -51,7 +51,6 @@ body {
     color: #3159ef;
     margin: 0;
 }
-
 .inicio h5 {
     font-size: 15px;
     color: #172554;
@@ -80,7 +79,6 @@ body {
     align-items: center;
     gap: 10px;
 }
-
 .titulo img {
     width: 50px;
 }
@@ -108,7 +106,6 @@ body {
 .contato li {
     margin: 10px 0;
 }
-
 .aprender {
     margin: 20px 5%;
     padding: 30px;
@@ -134,7 +131,6 @@ body {
     min-height: 50px;
     font-size: 20px;
     color: #3159ef;
-
 }
 .card p {
     margin-top: 35px;
