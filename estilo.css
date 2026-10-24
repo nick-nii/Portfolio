@@ -143,45 +143,36 @@ body {
     color: #172554;
 }
 @media (max-width: 768px) {
-
     .navbar {
         flex-direction: column;
         padding: 10px;
     }
-
     .menu {
         flex-direction: column;
         gap: 10px;
     }
-
     .inicio {
         padding: 50px 20px;
     }
-
     .inicio h2 {
         font-size: 28px;
     }
-
     .sobre-contato {
         flex-direction: column;
         padding: 30px 20px;
     }
-
     .sobre,
     .contato {
         width: 100%;
         max-width: none;
     }
-
     .aprender {
         margin: 20px;
         padding: 10px;
     }
-
     .cards {
         flex-direction: column;
     }
-
     .card {
         width: 100%;
         box-sizing: border-box;
